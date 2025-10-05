@@ -4,6 +4,7 @@
     display: block;
     text-align: center;
     color: white;
+
 }
 
 .all {
@@ -42,15 +43,9 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
 @media screen and (max-width: 600px) {
-    .interaktiv{
+    .interaktiv {
         grid-template-columns: 1fr;
-    }
-        .kaktuszgrid{
-        display: inline;
-    }
-    img{
-        width: 20%;
-        height: 20%;
     }
 }
